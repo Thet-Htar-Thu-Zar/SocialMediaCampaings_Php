@@ -18,7 +18,6 @@
     session_start();
     ?>
 
-
     <nav class="nav-bar">
         <a href="#"><img src="./picture/logo1.png" alt="" class="logo"></a>
         <a href="Home.php">Home</a>
@@ -63,7 +62,6 @@
             <input id="mysearch" type="text" name="search" placeholder="Search.....">
             <i class='bx bxs-file-find' style="margin-top: 18px;font-size: 30px;"></i>
         </form>
-
 
     </nav>
 

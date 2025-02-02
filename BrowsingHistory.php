@@ -53,7 +53,6 @@
     for ($i = 1; $i <= $totalPages; $i++) {
         echo "<a href='?page=$i'>$i   </a>";
     }
-
     ?>
 
     <br>

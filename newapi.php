@@ -42,20 +42,20 @@
             $row = 1;
             foreach ($articles as $article) { ?>
 
-                <div class="box" style="position: relative">
-                    <div class="box-text">
-                        <p class="title"><?php echo $article['title'] ?></p>
-                    </div>
-                    <div class="box-img">
-                        <img class="image" src=" <?php echo $article['urlToImage'] ?>">
-                    </div>
-                    <div class="box-text">
-                        <p class="description"><?php echo $article['description'] ?></p>
-                    </div>
-                    <div class="box-text" class="readmore">
-                        <button class="btnread"><a href="<?php echo $article['url'] ?>">Read More</button>
-                    </div>
-                </div>
+    <div class="box" style="position: relative">
+        <div class="box-text">
+            <p class="title"><?php echo $article['title'] ?></p>
+        </div>
+        <div class="box-img">
+            <img class="image" src=" <?php echo $article['urlToImage'] ?>">
+        </div>
+        <div class="box-text">
+            <p class="description"><?php echo $article['description'] ?></p>
+        </div>
+        <div class="box-text" class="readmore">
+            <button class="btnread"><a href="<?php echo $article['url'] ?>">Read More</button>
+        </div>
+    </div>
     <?php $row++;
                 if ($row > 12)
                     break;

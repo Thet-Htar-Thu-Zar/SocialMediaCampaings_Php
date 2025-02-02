@@ -43,7 +43,6 @@ include("./execution/header.php");
         ?>
     </div>
 
-
     <?php
     $footername = "Application Page";
     include("./execution/footer.php");

@@ -112,7 +112,6 @@
         </script>
     </div>
 
-
     <?php
     $footername = "Login Page";
     include("./execution/footer.php");

@@ -60,7 +60,6 @@
     <br>
     <br>
 
-
     <div class="animation_container">
         <span style="--i:1"><img src="./picture/media(6).jpg" alt=""></span>
         <span style="--i:2"><img src="./picture/media(2).jpg" alt=""></span>
@@ -164,8 +163,6 @@
         <div class="swiper-button-prev nav-btn"></div>
         <div class="swiper-pagination"></div>
     </div>
-
-
 
     <script src="./js/swiper-bundle.min.js"></script>
 
